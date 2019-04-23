@@ -15,15 +15,7 @@ function mostrarSignos(z){
 function valida(e){
     tecla = (document.all) ? e.keyCode : e.which;
 
-function porcentaje () {
 
-        var perct = 0;
-        perct = document.getElementById('visor').value;
-        document.getElementById('visor').value = '';
-        perct = eval(perct);
-        document.getElementById('visor').value = perct/100;
-
-    }
 
     //Tecla de retroceso para borrar, siempre la permite
     if (tecla==8){
