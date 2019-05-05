@@ -1,0 +1,10 @@
+/* Estilo de Las Pestañas */
+.tab {overflow: hidden;border: 1px solid #ccc;background-color: #4933FF;}
+/* Estilos button de la pestaña */
+.tab button {background-color: inherit;float: left;border: none;outline: none;cursor: pointer;padding: 14px 16px;transition: 0.3s;font-size: 17px;}
+/* Color de botones */
+.tab button:hover {
+  background-color: #FFFFFF;}
+
+/* Estilo del contenido */
+.tabcontent {display: none;padding: 6px 12px;border: 1px solid #ccc;border-top: none;}
